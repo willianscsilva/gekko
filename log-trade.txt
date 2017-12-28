@@ -1,0 +1,68 @@
+nohup: ignoring input
+
+    ______   ________  __    __  __    __   ______
+   /      \ /        |/  |  /  |/  |  /  | /      \
+  /$$$$$$  |$$$$$$$$/ $$ | /$$/ $$ | /$$/ /$$$$$$  |
+  $$ | _$$/ $$ |__    $$ |/$$/  $$ |/$$/  $$ |  $$ |
+  $$ |/    |$$    |   $$  $$<   $$  $$<   $$ |  $$ |
+  $$ |$$$$ |$$$$$/    $$$$$  \  $$$$$  \  $$ |  $$ |
+  $$ \__$$ |$$ |_____ $$ |$$  \ $$ |$$  \ $$ \__$$ |
+  $$    $$/ $$       |$$ | $$  |$$ | $$  |$$    $$/ 
+   $$$$$$/  $$$$$$$$/ $$/   $$/ $$/   $$/  $$$$$$/
+
+	Gekko v0.5.10
+	I'm gonna make you rich, Bud Fox. 
+
+
+2017-12-17 15:39:24 (INFO):	Setting up Gekko in realtime mode
+2017-12-17 15:39:24 (INFO):	
+2017-12-17 15:39:24 (INFO):	Setting up:
+2017-12-17 15:39:24 (INFO):		 Trading Advisor
+2017-12-17 15:39:24 (INFO):		 Calculate trading advice
+2017-12-17 15:39:24 (INFO):		 Using the strategy: RSICUSTOM
+2017-12-17 15:39:24 (INFO):		The trading method requests 50 minutes of historic data. Checking availablity..
+2017-12-17 15:39:24 (INFO):	
+
+2017-12-17 15:39:24 (INFO):		No usable local data available, trying to get as much as possible from the exchange..
+2017-12-17 15:39:24 (DEBUG):		Fetching exchange data since 50 minutes ago
+2017-12-17 15:39:26 (DEBUG):		Available exchange data:
+2017-12-17 15:39:26 (DEBUG):			from: 1 minutes ago
+2017-12-17 15:39:26 (DEBUG):			to: 0 minutes ago
+2017-12-17 15:39:26 (DEBUG):		Unable to stitch datasets.
+2017-12-17 15:39:26 (INFO):		Not seeding locally available data to the trading method.
+2017-12-17 15:39:26 (INFO):	Setting up:
+2017-12-17 15:39:26 (INFO):		 Telegram bot
+2017-12-17 15:39:26 (INFO):		 Telegram module lets you communicate with Gekko on Telegram.
+Sun, 17 Dec 2017 17:39:26 GMT node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. at module.js:635:30
+2017-12-17 15:39:26 (INFO):	
+
+2017-12-17 15:39:26 (INFO):	Setting up:
+2017-12-17 15:39:26 (INFO):		 Trader
+2017-12-17 15:39:26 (INFO):		 Follows the advice and create real orders.
+2017-12-17 15:39:26 (DEBUG):	getting ticker, balance & fee from Bitfinex
+2017-12-17 15:39:26 (INFO):	
+
+2017-12-17 15:39:28 (INFO):	trading at Bitfinex ACTIVE
+2017-12-17 15:39:28 (INFO):	Bitfinex trading fee will be: 0.1%
+2017-12-17 15:39:28 (INFO):	Bitfinex portfolio:
+2017-12-17 15:39:28 (INFO):		 USD: 0.039866830000
+2017-12-17 15:39:28 (INFO):		 BTC: 0.000000000000
+2017-12-17 15:39:28 (INFO):	Setting up:
+2017-12-17 15:39:28 (INFO):		 Performance Analyzer
+2017-12-17 15:39:28 (INFO):		 Analyzes performances of trades
+2017-12-17 15:39:28 (INFO):	
+
+2017-12-17 15:39:28 (INFO):	Starting to watch the market: Bitfinex BTC/USD
+2017-12-17 15:39:28 (DEBUG):	scheduling ticks
+2017-12-17 15:39:28 (DEBUG):	Requested BTC/USD trade data from Bitfinex ...
+2017-12-17 15:39:29 (DEBUG):	Processing 100 new trades. From 2017-12-17 17:38:24 UTC to 2017-12-17 17:39:29 UTC. (a minute)
+2017-12-17 15:39:48 (DEBUG):	Requested BTC/USD trade data from Bitfinex ...
+2017-12-17 15:39:48 (DEBUG):	Processing 28 new trades. From 2017-12-17 17:39:29 UTC to 2017-12-17 17:39:47 UTC. (a few seconds)
+2017-12-17 15:40:08 (DEBUG):	Requested BTC/USD trade data from Bitfinex ...
+2017-12-17 15:40:08 (DEBUG):	Processing 23 new trades. From 2017-12-17 17:39:49 UTC to 2017-12-17 17:40:03 UTC. (a few seconds)
+2017-12-17 15:40:28 (DEBUG):	Requested BTC/USD trade data from Bitfinex ...
+2017-12-17 15:40:29 (DEBUG):	Processing 28 new trades. From 2017-12-17 17:40:14 UTC to 2017-12-17 17:40:29 UTC. (a few seconds)
+2017-12-17 15:40:48 (DEBUG):	Requested BTC/USD trade data from Bitfinex ...
+2017-12-17 15:40:49 (DEBUG):	Processing 31 new trades. From 2017-12-17 17:40:29 UTC to 2017-12-17 17:40:48 UTC. (a few seconds)

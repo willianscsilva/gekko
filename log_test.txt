@@ -1,0 +1,48 @@
+
+    ______   ________  __    __  __    __   ______
+   /      \ /        |/  |  /  |/  |  /  | /      \
+  /$$$$$$  |$$$$$$$$/ $$ | /$$/ $$ | /$$/ /$$$$$$  |
+  $$ | _$$/ $$ |__    $$ |/$$/  $$ |/$$/  $$ |  $$ |
+  $$ |/    |$$    |   $$  $$<   $$  $$<   $$ |  $$ |
+  $$ |$$$$ |$$$$$/    $$$$$  \  $$$$$  \  $$ |  $$ |
+  $$ \__$$ |$$ |_____ $$ |$$  \ $$ |$$  \ $$ \__$$ |
+  $$    $$/ $$       |$$ | $$  |$$ | $$  |$$    $$/ 
+   $$$$$$/  $$$$$$$$/ $$/   $$/ $$/   $$/  $$$$$$/
+
+	Gekko v0.5.10
+	I'm gonna make you rich, Bud Fox. 
+
+
+2017-12-07 13:46:49 (INFO):	Setting up Gekko in backtest mode
+2017-12-07 13:46:49 (INFO):	
+2017-12-07 13:46:49 (INFO):	Setting up:
+2017-12-07 13:46:49 (INFO):		 Trading Advisor
+2017-12-07 13:46:49 (INFO):		 Calculate trading advice
+2017-12-07 13:46:49 (INFO):		 Using the strategy: RSI
+2017-12-07 13:46:49 (INFO):	
+
+2017-12-07 13:46:49 (INFO):	Setting up:
+2017-12-07 13:46:49 (INFO):		 Paper Trader
+2017-12-07 13:46:49 (INFO):		 Paper trader that simulates fake trades.
+2017-12-07 13:46:49 (INFO):	
+
+2017-12-07 13:46:49 (INFO):	Setting up:
+2017-12-07 13:46:49 (INFO):		 Performance Analyzer
+2017-12-07 13:46:49 (INFO):		 Analyzes performances of trades
+2017-12-07 13:46:49 (INFO):	
+
+2017-12-07 13:46:49 (INFO):	Scanning local history for backtestable dateranges.
+2017-12-07 13:46:49 (DEBUG):	Available 45660
+2017-12-07 13:46:49 (DEBUG):	Optimal 51499
+2017-12-07 13:46:49 (INFO):	The database has 5840 candles missing, Figuring out which ones...
+2017-12-07 13:46:49 (INFO):	Gekko detected multiple dateranges in the locally stored history. Please pick the daterange you are interested in testing:
+2017-12-07 13:46:49 (INFO):			 OPTION 1:
+2017-12-07 13:46:49 (INFO):		 from: 2017-11-01 00:19:00
+2017-12-07 13:46:49 (INFO):		 to: 2017-11-30 22:19:00
+2017-12-07 13:46:49 (INFO):			 OPTION 2:
+2017-12-07 13:46:49 (INFO):		 from: 2017-12-05 00:19:00
+2017-12-07 13:46:49 (INFO):		 to: 2017-12-06 18:19:00
+prompt: [90moption[39m[90m: [39m 
+ ERROR: Not an option..
+
+
